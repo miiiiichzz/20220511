@@ -1,0 +1,178 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: #FFF8ED;
+}
+
+nav {
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: #5F6751;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+    box-shadow: 0px 1px 20px #6B6B6B;
+    z-index: 1000;
+}
+
+article ol {
+    color: #043540;
+    font-weight: bold;
+}
+article a:link  {
+    color: #043540;
+    text-decoration: none;
+    font-weight: bolder;
+}
+article a:hover {
+	text-decoration: underline;
+	color: #B35C37;
+}
+
+
+
+article p {
+    color: #043540;
+    font-weight: bold;
+}
+article ul {
+    color: #043540;
+    font-weight: bold;
+}
+
+
+header h1 {
+	text-align: center;
+	color: #F5FAF1;
+	font-size: 43px;
+	background-color: #4A593D;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 1px 5px #6B6B6B;
+	box-shadow: 0px 1px 5px #6B6B6B;
+}
+
+article h4 {
+    color: #4A593D;
+    font-weight: bolder;
+}
+.container h6 {
+	color: #4A593D;
+	text-align: center;
+	font-weight: 800;
+}
+
+
+
+
+
+footer {
+	height: 70px;
+	text-align: center;
+	background-color: #5F6751;
+	color: #ECE0E0;
+	padding-top: 5px;
+}
+
+.container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article h4 {
+	text-align: center;
+}
+
+
+nav a:link {
+	text-decoration: none;
+	color: #ECECEB;
+	font-weight: 600;
+}
+nav a:visited {
+	color: #A7A69B;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #B35C37;
+}
+
+.heroimg {
+	background-image: url(2222.jpg);
+	background-size: contain;
+	background-position: center 0%;
+	height: 100vh;
+	-webkit-box-shadow: 0px 0;
+	box-shadow: 0px 0;
+	width: 100%;
+}
+article h3 {
+	height: 40px;
+	background-color: #CDCFA6;
+	padding-left: 15px;
+	line-height: 40px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align: center;
+	text-decoration: none;
+	color: #616138;
+}
+article h2 {
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	height: 60px;
+	background-color: #616138;
+	line-height: 60px;
+	border-radius: 30px 30px 13px 13px;
+	text-align: center;
+	color: #FEFEF4;
+}
+article h5 {
+    text-align: center;
+    color: #4A593D;
+}
+article div img {
+	transform: 
+	-webkit-transition: all 1s ease-in-out 0s;
+	-o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
+	-webkit-transition: all 1s ease-in-out 0s;
+	-webkit-box-shadow: 0px 1px 5px;
+	box-shadow: 0px 1px 5px;
+	border-radius: 10px;
+}
+
+
+.title h3 {
+	color: #F2EDED;
+	padding-left: 20px;
+}
+.menu {
+	padding-right: 25px;
+}
+.wow.jackInTheBox {
+	-webkit-transition: all 1s ease-in-out 0s;
+	-o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 1px 5px;
+	box-shadow: 0px 1px 5px;
+}
+
+article div img:hover {
+	height: 517px;
+	width: 700px;
+}
+.wow.jackInTheBox:hover {
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
